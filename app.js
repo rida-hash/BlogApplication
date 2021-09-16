@@ -3,6 +3,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+const mongoose = require("mongoose");
 var _ = require('lodash');
 
 const homeStartingContent = "Welcome to my BlogPost Application! Fancy seeing yourself here. I'm currently working to deploy this, learning and constantly adding new features in it until it all comes together to be what I've envisioned it to be. Try running this application once again by forking the updated code after sometime.";
@@ -11,6 +12,16 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 const app = express();
 const posts = [];
+
+
+mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser: true});
+
+const postSchema = {
+  title: String,
+  content: String
+};
+
+const Post = mongoose.model("Post", postSchema);
 
 app.set('view engine', 'ejs');
 
