@@ -79,7 +79,7 @@ Apprehensive list of the major frameworks used to build this project
 ## Getting Started
 
 These are the instructions on setting up this project.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@ Installing the Node package manager
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/rida-hash/BlogApplication.git
    ```
 2. Install required NPM packages
    ```sh
