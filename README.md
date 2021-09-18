@@ -14,9 +14,9 @@
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> -->
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/rida-hash/BlogApplication/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/rida-hash/BlogApplication/issues">Request Feature</a>
   </p>
 </p>
 
@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="https://github.com/rida-hash/BlogApplication/blob/main/images/maininterface.png?raw=true"></img>
 
 Writing is the most important new soft-skill for the dynamic tech industry, and it is a muscle that needs exercise to get stronger. The motivation behind my application is to promote this quality amongst new techies when drafting their newest publications. It is a Full-Stack Application, created to provide a groundwork ahead of time, for people to pre-post and review their content before finally uploading to the real world.
 
@@ -109,7 +109,7 @@ Installing the Node package manager
 ## Usage
 
 It enables the user to create new blogs rendered with the date of publishing, and edit or delete their content based on their preferences. It provides the slug functionality used to store and generate valid URLs for the dynamically created blogs, along with method-override for SEO. The text is converted to Markdown syntax for a better UI Experience, enabling users to write using an easy-to-read and easy-to-write plain text format.
-
+<img src="https://github.com/rida-hash/BlogApplication/blob/main/images/add.png?raw=true"></img>
 
 <!-- CONTRIBUTING -->
 ## Contributing
